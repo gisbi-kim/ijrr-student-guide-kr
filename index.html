@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IJRR — The International Journal of Robotics Research</title>
 <style>
 :root{
@@ -279,27 +279,40 @@ a{color:inherit}
 .page3 .final .small{margin-top:1.1mm;line-height:1.32;}
 
 </style>
-</head>
+<style>.language-toggle{
+  position:fixed;top:16px;right:16px;z-index:9999;display:inline-flex;align-items:center;justify-content:center;
+  min-width:74px;height:38px;padding:0 15px;border:1px solid rgba(23,44,66,.22);border-radius:999px;
+  background:rgba(255,255,255,.94);color:#17314a;box-shadow:0 5px 18px rgba(15,31,50,.16);
+  font:800 12px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:.035em;
+  cursor:pointer;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)
+}
+.language-toggle:hover{background:#fff;box-shadow:0 7px 22px rgba(15,31,50,.22)}
+.language-toggle:focus-visible{outline:3px solid #72b9ef;outline-offset:3px}
+@media(max-width:600px){.language-toggle{top:10px;right:10px;min-width:68px;height:36px;padding:0 12px}}
+@media print{.language-toggle{display:none!important}}
+@media (min-width:851px), print{
+html[lang="en"] .page3 .inner{transform:scale(.98);transform-origin:top left;width:102.0408%}
+}</style></head>
 <body>
 
-<!-- PAGE 1 -->
+<button class="language-toggle" type="button" aria-label="Switch to English" title="Switch to English">EN</button><!-- PAGE 1 -->
 <section class="page">
 <div class="topbar"></div>
 <div class="inner">
   <div class="eyebrow">The International Journal of Robotics Research · Since 1982</div>
   <h1>IJRR</h1>
-  <div class="subtitle">
+  <div class="subtitle" data-bilingual-id="c0">
     <strong>The International Journal of Robotics Research</strong><br>
     로보틱스를 독립된 학문으로 기록하기 시작한 최초의 전용 scholarly journal이자, 40년 넘게 “archival value”의 기준을 만들어온 대표 저널
   </div>
 
   <div class="hero">
-    <div class="big">
+    <div class="big" data-bilingual-id="c1">
       IJRR를 단순히 <strong>“T-RO와 비슷한 또 하나의 최상위 저널”</strong>로만 이해하면 역사적 성격을 놓치게 된다.
       1982년 로보틱스가 아직 여러 공학 분야의 응용으로 보이던 시기에,
-      IJRR는 <strong>robotics 자체를 하나의 science & technology로 기록하는 전용 scholarly venue</strong>로 출발했다.
+      IJRR는 <strong>robotics 자체를 하나의 science &amp; technology로 기록하는 전용 scholarly venue</strong>로 출발했다.
     </div>
-    <div class="small">
+    <div class="small" data-bilingual-id="c2">
       현재 IJRR의 공식 기준도 이 전통과 연결돼 있다.
       scope는 “all of robotics”이며, 로보틱스를 Michael Brady의 표현을 빌려
       <strong>perception과 action을 잇는 intelligent link</strong>로 본다.
@@ -308,9 +321,9 @@ a{color:inherit}
   </div>
 
   <div class="facts">
-    <div class="fact"><b>Founded 1982</b><span>Michael Brady · Richard Paul이 창간한 최초의 robotics research journal</span></div>
-    <div class="fact"><b>All of Robotics</b><span>수학·AI·CS·EE·ME·인지·행동과학까지 폭넓은 scope</span></div>
-    <div class="fact"><b>~12 Pages</b><span>통상 final 2-column 기준 — “as long as necessary, but no longer”</span></div>
+    <div class="fact" data-bilingual-id="c3"><b>Founded 1982</b><span>Michael Brady · Richard Paul이 창간한 최초의 robotics research journal</span></div>
+    <div class="fact" data-bilingual-id="c4"><b>All of Robotics</b><span>수학·AI·CS·EE·ME·인지·행동과학까지 폭넓은 scope</span></div>
+    <div class="fact" data-bilingual-id="c5"><b>~12 Pages</b><span>통상 final 2-column 기준 — “as long as necessary, but no longer”</span></div>
     <div class="fact"><b>Archival Value</b><span>original · solid · useful for others to build upon · valuable in time</span></div>
   </div>
 
@@ -318,15 +331,15 @@ a{color:inherit}
     <div class="section-head">
       <div>
         <div class="section-kicker">Identity</div>
-        <h2>IJRR이 말하는 “좋은 robotics research”</h2>
+        <h2 data-bilingual-id="c6">IJRR이 말하는 “좋은 robotics research”</h2>
       </div>
       <div class="section-note">Rigorous, broad, durable — not merely fashionable</div>
     </div>
 
     <div class="twocol">
       <div class="box">
-        <h3>유행보다 오래 남는 research result를 본다</h3>
-        <p>
+        <h3 data-bilingual-id="c7">유행보다 오래 남는 research result를 본다</h3>
+        <p data-bilingual-id="c8">
           현 편집장이 설명한 IJRR의 정체성은 비교적 담백하다.
           로보틱스 전체 스펙트럼에 대해 <strong>in-depth scientific discussion</strong>을 허용하되,
           단기적인 fashion이나 glossy presentation에 치우치지 않는다는 것이다.
@@ -334,8 +347,8 @@ a{color:inherit}
         </p>
       </div>
       <div class="box soft">
-        <h3>이론과 실제 중 하나를 택하는 저널이 아니다</h3>
-        <p>
+        <h3 data-bilingual-id="c9">이론과 실제 중 하나를 택하는 저널이 아니다</h3>
+        <p data-bilingual-id="c10">
           공식 reviewer guideline은 proof, statistically significant experiment, reproducible test,
           field demonstration 등 <strong>주장에 맞는 모든 relevant scientific means</strong>를 요구한다.
           어떤 형식의 evidence인지보다 “회의적인 동료 연구자를 충분히 설득할 수 있는가”가 기준이다.
@@ -348,13 +361,13 @@ a{color:inherit}
     <div class="section-head">
       <div>
         <div class="section-kicker">Scope</div>
-        <h2>40년 넘게 로보틱스의 거의 모든 축을 함께 기록해 왔다</h2>
+        <h2 data-bilingual-id="c11">40년 넘게 로보틱스의 거의 모든 축을 함께 기록해 왔다</h2>
       </div>
     </div>
 
     <div class="scope-grid">
       <div class="scope">
-        <h3>Foundations & Control</h3>
+        <h3>Foundations &amp; Control</h3>
         <ul>
           <li>Kinematics · dynamics · control</li>
           <li>Motion · task · belief-space planning</li>
@@ -364,7 +377,7 @@ a{color:inherit}
         </ul>
       </div>
       <div class="scope">
-        <h3>Perception & Autonomy</h3>
+        <h3>Perception &amp; Autonomy</h3>
         <ul>
           <li>Vision · tactile · multi-sensor fusion</li>
           <li>SLAM · mapping · localization</li>
@@ -374,7 +387,7 @@ a{color:inherit}
         </ul>
       </div>
       <div class="scope">
-        <h3>Embodiment & Interaction</h3>
+        <h3>Embodiment &amp; Interaction</h3>
         <ul>
           <li>Manipulation · grasping · teleoperation</li>
           <li>Legged · aerial · marine robots</li>
@@ -386,8 +399,8 @@ a{color:inherit}
     </div>
 
     <div class="rule">
-      <div class="tag">IJRR의 가장<br>중요한 문장</div>
-      <div class="txt">
+      <div class="tag" data-bilingual-id="c12">IJRR의 가장<br>중요한 문장</div>
+      <div class="txt" data-bilingual-id="c13">
         공식 editorial guideline은 IJRR가 <b>archival value</b>가 있는 연구만을 출판한다고 설명한다.
         즉, 분야를 advance하면서 <b>시간이 지나도 가치가 남고</b>,
         <b>다른 연구자들이 그 위에 다시 build할 수 있는</b> 결과여야 한다.
@@ -405,8 +418,8 @@ a{color:inherit}
 <div class="inner">
   <div class="page-title-row">
     <div>
-      <div class="eyebrow">History & Editorial Culture</div>
-      <h2>IJRR의 역사와 독특한 “scholarly record” 문화</h2>
+      <div class="eyebrow">History &amp; Editorial Culture</div>
+      <h2 data-bilingual-id="c14">IJRR의 역사와 독특한 “scholarly record” 문화</h2>
     </div>
     <div class="num">02</div>
   </div>
@@ -415,23 +428,23 @@ a{color:inherit}
     <div class="timeline">
       <div class="event">
         <div class="year">Mar 1982</div>
-        <div class="txt"><strong>Volume 1, Issue 1</strong> 발행. articulated hand, model-based vision 등 당시 막 독립 분야로 형성되던 robotics 연구를 하나의 저널 안에 모았다.</div>
+        <div class="txt" data-bilingual-id="c15"><strong>Volume 1, Issue 1</strong> 발행. articulated hand, model-based vision 등 당시 막 독립 분야로 형성되던 robotics 연구를 하나의 저널 안에 모았다.</div>
       </div>
       <div class="event">
         <div class="year">1982</div>
-        <div class="txt"><strong>Sir Michael Brady와 Richard (Lou) Paul</strong>이 IJRR를 창간한다. 이후 ISRR(1983), IEEE ICRA의 전신 ICR(1984)이 뒤따르며 현대 robotics community의 제도적 기반이 형성된다.</div>
+        <div class="txt" data-bilingual-id="c16"><strong>Sir Michael Brady와 Richard (Lou) Paul</strong>이 IJRR를 창간한다. 이후 ISRR(1983), IEEE ICRA의 전신 ICR(1984)이 뒤따르며 현대 robotics community의 제도적 기반이 형성된다.</div>
       </div>
       <div class="event">
         <div class="year">2000–22</div>
-        <div class="txt"><strong>John Hollerbach</strong>가 23년 동안 Editor-in-Chief를 맡으며 IJRR의 규모와 영향력을 확장하고, “best scholarly articles”를 깊게 논의하는 대표 robotics journal의 정체성을 강화했다.</div>
+        <div class="txt" data-bilingual-id="c17"><strong>John Hollerbach</strong>가 23년 동안 Editor-in-Chief를 맡으며 IJRR의 규모와 영향력을 확장하고, “best scholarly articles”를 깊게 논의하는 대표 robotics journal의 정체성을 강화했다.</div>
       </div>
       <div class="event">
         <div class="year">2023–</div>
-        <div class="txt"><strong>Antonio Bicchi</strong>가 Editor-in-Chief를 이어받는다. inaugural editorial에서 IJRR를 “robotics research의 첫 scholarly publication”이자 40년 넘게 community history를 만든 flagship으로 규정한다.</div>
+        <div class="txt" data-bilingual-id="c18"><strong>Antonio Bicchi</strong>가 Editor-in-Chief를 이어받는다. inaugural editorial에서 IJRR를 “robotics research의 첫 scholarly publication”이자 40년 넘게 community history를 만든 flagship으로 규정한다.</div>
       </div>
       <div class="event">
         <div class="year">Today</div>
-        <div class="txt">Original Articles뿐 아니라 <strong>Review Articles · Special Issues · Data Papers</strong>를 출판한다. dataset도 단순 파일 공개가 아니라 사용법과 scientific value를 설명하는 regular manuscript 형태로 peer review한다.</div>
+        <div class="txt" data-bilingual-id="c19">Original Articles뿐 아니라 <strong>Review Articles · Special Issues · Data Papers</strong>를 출판한다. dataset도 단순 파일 공개가 아니라 사용법과 scientific value를 설명하는 regular manuscript 형태로 peer review한다.</div>
       </div>
     </div>
   </section>
@@ -439,12 +452,12 @@ a{color:inherit}
   <div class="archive">
     <div class="dark">
       <h3>“As long as necessary, but no longer.”</h3>
-      <p>
+      <p data-bilingual-id="c20">
         IJRR에는 형식적인 submission page limit가 없다.
         그러나 공식 guideline은 일반적인 final two-column paper를 약 12쪽으로 보고,
         substantially shorter/longer paper는 그만한 merit가 있을 때만 고려한다고 설명한다.
       </p>
-      <p>
+      <p data-bilingual-id="c21">
         즉, “journal이니 길게 쓰는 것”이 아니라
         <strong>주장을 완결하는 데 필요한 만큼만 쓰고, 그 이상은 쓰지 않는 것</strong>이 원칙이다.
         depth와 concision을 동시에 요구하는 셈이다.
@@ -452,20 +465,20 @@ a{color:inherit}
     </div>
 
     <div class="white">
-      <h3>IJRR가 특히 강조하는 editorial transparency</h3>
+      <h3 data-bilingual-id="c22">IJRR가 특히 강조하는 editorial transparency</h3>
       <ul>
-        <li>preprint는 허용하지만 archival journal과의 동시 심사는 허용하지 않는다.</li>
-        <li>conference/workshop과 일부 overlap이 있으면 제출 시 공개적으로 disclosure해야 한다.</li>
-        <li>이전 conference paper의 단순 실험 추가는 substantial extension으로 보지 않는다.</li>
-        <li>이전에 다른 venue에서 reject된 원고라면 그 사실과 reviews, 개선 내용을 함께 공개해야 한다.</li>
-        <li>submission에는 최대 80단어의 Novelty Statement가 필요하다.</li>
-        <li>peer review는 professional editor가 아니라 robotics 연구자 community가 수행한다.</li>
+        <li data-bilingual-id="c23">preprint는 허용하지만 archival journal과의 동시 심사는 허용하지 않는다.</li>
+        <li data-bilingual-id="c24">conference/workshop과 일부 overlap이 있으면 제출 시 공개적으로 disclosure해야 한다.</li>
+        <li data-bilingual-id="c25">이전 conference paper의 단순 실험 추가는 substantial extension으로 보지 않는다.</li>
+        <li data-bilingual-id="c26">이전에 다른 venue에서 reject된 원고라면 그 사실과 reviews, 개선 내용을 함께 공개해야 한다.</li>
+        <li data-bilingual-id="c27">submission에는 최대 80단어의 Novelty Statement가 필요하다.</li>
+        <li data-bilingual-id="c28">peer review는 professional editor가 아니라 robotics 연구자 community가 수행한다.</li>
       </ul>
     </div>
   </div>
 
   <div class="reviewbox">
-    <div class="head">현재 IJRR peer-review / submission snapshot</div>
+    <div class="head" data-bilingual-id="c29">현재 IJRR peer-review / submission snapshot</div>
     <div class="reviewgrid">
       <div><b>Single anonymized</b><span>reviewer identity concealed</span></div>
       <div><b>≥ 2 reviewers</b><span>+ Associate Editor · Senior Editor · EiC</span></div>
@@ -476,8 +489,8 @@ a{color:inherit}
   </div>
 
   <div class="rule">
-    <div class="tag">왜 이런<br>정책인가</div>
-    <div class="txt">
+    <div class="tag" data-bilingual-id="c30">왜 이런<br>정책인가</div>
+    <div class="txt" data-bilingual-id="c31">
       IJRR는 journal paper를 <b>새로운 archival record</b>로 본다.
       따라서 conference paper에서 상세 설명이나 실험 수만 늘리는 식의 확장은 충분하지 않으며,
       새로운 result·methodology·analysis·conclusion·implication 중 하나 이상이
@@ -495,18 +508,18 @@ a{color:inherit}
   <div class="page-title-row">
     <div>
       <div class="eyebrow">How to Read and Write an IJRR Paper</div>
-      <h2>무엇이 “IJRR다운 논문”을 만드는가</h2>
+      <h2 data-bilingual-id="c32">무엇이 “IJRR다운 논문”을 만드는가</h2>
     </div>
     <div class="num">03</div>
   </div>
 
   <div class="hero" style="margin-top:4.2mm">
-    <div class="big">
+    <div class="big" data-bilingual-id="c33">
       IJRR다운 논문은 “길고 실험이 많은 논문”이라기보다,
       <strong>한 연구 주제를 다른 연구자가 다시 출발점으로 사용할 수 있을 정도로 깊게 정리한 논문</strong>에 가깝다.
       그래서 originality만큼 reproducibility·comparison·analysis·limitations가 중요하다.
     </div>
-    <div class="small">
+    <div class="small" data-bilingual-id="c34">
       같은 idea라도 conference에서는 “새로운가?”가 첫 질문이 되기 쉽지만,
       IJRR에서는 그 다음 질문 — “이 결과가 충분히 solid하고, 오래 남고, 다른 사람이 build upon할 수 있는가?” — 까지 닫아야 한다.
     </div>
@@ -515,37 +528,37 @@ a{color:inherit}
   <section class="section">
     <div class="matrix">
       <div class="row header">
-        <div>관점</div><div>Incremental journal extension</div><div>IJRR-shaped</div>
+        <div data-bilingual-id="c35">관점</div><div>Incremental journal extension</div><div>IJRR-shaped</div>
       </div>
       <div class="row">
-        <div class="label">출발점</div>
-        <div>conference paper에 실험·dataset·background를 추가</div>
-        <div>새로운 archival contribution이 무엇인지 먼저 정의</div>
+        <div class="label" data-bilingual-id="c36">출발점</div>
+        <div data-bilingual-id="c37">conference paper에 실험·dataset·background를 추가</div>
+        <div data-bilingual-id="c38">새로운 archival contribution이 무엇인지 먼저 정의</div>
       </div>
       <div class="row">
         <div class="label">Novelty</div>
-        <div>기존 method의 추가 성능 개선이나 상세화</div>
-        <div>새 result·methodology·analysis·implication 중 substantive advance가 존재</div>
+        <div data-bilingual-id="c39">기존 method의 추가 성능 개선이나 상세화</div>
+        <div data-bilingual-id="c40">새 result·methodology·analysis·implication 중 substantive advance가 존재</div>
       </div>
       <div class="row">
         <div class="label">Evidence</div>
-        <div>더 많은 benchmark와 ablation</div>
-        <div>claim에 필요한 proof·statistics·reproducible experiment·field evidence를 선택</div>
+        <div data-bilingual-id="c41">더 많은 benchmark와 ablation</div>
+        <div data-bilingual-id="c42">claim에 필요한 proof·statistics·reproducible experiment·field evidence를 선택</div>
       </div>
       <div class="row">
         <div class="label">Length</div>
-        <div>journal이니 가능한 한 상세하게 작성</div>
-        <div>필요한 만큼만 — 통상 약 12쪽, 짧거나 길면 그 이유가 scientific merit로 설명돼야 함</div>
+        <div data-bilingual-id="c43">journal이니 가능한 한 상세하게 작성</div>
+        <div data-bilingual-id="c44">필요한 만큼만 — 통상 약 12쪽, 짧거나 길면 그 이유가 scientific merit로 설명돼야 함</div>
       </div>
       <div class="row">
         <div class="label">Literature</div>
-        <div>related work를 넓게 추가</div>
-        <div>최신 literature와 meaningful comparison으로 “왜 실제 advance인가”를 입증</div>
+        <div data-bilingual-id="c45">related work를 넓게 추가</div>
+        <div data-bilingual-id="c46">최신 literature와 meaningful comparison으로 “왜 실제 advance인가”를 입증</div>
       </div>
       <div class="row">
         <div class="label">End state</div>
-        <div>같은 연구를 더 완성도 높게 보여줌</div>
-        <div>후속 연구가 인용하고 재사용할 수 있는 reference point를 남김</div>
+        <div data-bilingual-id="c47">같은 연구를 더 완성도 높게 보여줌</div>
+        <div data-bilingual-id="c48">후속 연구가 인용하고 재사용할 수 있는 reference point를 남김</div>
       </div>
     </div>
   </section>
@@ -553,21 +566,21 @@ a{color:inherit}
   <div class="framing">
     <div class="frame incremental">
       <div class="label">Mere extension</div>
-      <div class="sample">
+      <div class="sample" data-bilingual-id="c49">
         “conference 버전에 dataset 두 개와 ablation 세 개를 추가하고 설명을 확장했다.”
       </div>
-      <div class="explain">
+      <div class="explain" data-bilingual-id="c50">
         IJRR guideline은 이런 변경만으로는 substantial extension이 아니라고 명시한다.
         추가된 내용이 새로운 scientific conclusion이나 methodology를 만들어야 한다.
       </div>
     </div>
     <div class="frame ijrr">
       <div class="label">IJRR-shaped</div>
-      <div class="sample">
+      <div class="sample" data-bilingual-id="c51">
         “기존 conference 결과가 성립하는 조건을 새롭게 분석하고, 그 한계를 제거하는 formulation을 도출해
         이론·실험·새 application regime까지 하나의 확장된 scientific claim으로 정리한다.”
       </div>
-      <div class="explain">
+      <div class="explain" data-bilingual-id="c52">
         핵심은 분량 증가가 아니라 knowledge의 증가다.
         기존 paper를 읽은 독자가 새 IJRR paper에서 무엇을 새롭게 배우는지가 분명해야 한다.
       </div>
@@ -579,24 +592,24 @@ a{color:inherit}
       <div class="section-kicker" style="margin-bottom:2.1mm">What students should learn</div>
       <div class="lesson-list">
         <div class="lesson">
-          <h3>“Archival value”를 논문의 설계 기준으로 삼는다</h3>
-          <p>5년 뒤 누군가가 이 문제를 다시 풀 때도 유효한 formulation·analysis·dataset·system lesson이 무엇인지 생각한다.</p>
+          <h3 data-bilingual-id="c53">“Archival value”를 논문의 설계 기준으로 삼는다</h3>
+          <p data-bilingual-id="c54">5년 뒤 누군가가 이 문제를 다시 풀 때도 유효한 formulation·analysis·dataset·system lesson이 무엇인지 생각한다.</p>
         </div>
         <div class="lesson">
-          <h3>Evidence의 종류보다 claim과의 적합성이 중요하다</h3>
-          <p>proof가 필요한 주장에는 proof를, field claim에는 field evidence를, stochastic claim에는 statistics를 제공해야 한다.</p>
+          <h3 data-bilingual-id="c55">Evidence의 종류보다 claim과의 적합성이 중요하다</h3>
+          <p data-bilingual-id="c56">proof가 필요한 주장에는 proof를, field claim에는 field evidence를, stochastic claim에는 statistics를 제공해야 한다.</p>
         </div>
         <div class="lesson">
-          <h3>이전 reject와 conference history를 숨기지 않는다</h3>
-          <p>IJRR는 이전 reviews와 개선 과정을 disclosure하도록 요구한다. transparency 자체가 scholarly process의 일부다.</p>
+          <h3 data-bilingual-id="c57">이전 reject와 conference history를 숨기지 않는다</h3>
+          <p data-bilingual-id="c58">IJRR는 이전 reviews와 개선 과정을 disclosure하도록 요구한다. transparency 자체가 scholarly process의 일부다.</p>
         </div>
         <div class="lesson">
-          <h3>Novelty Statement 80단어가 실제 논문 quality test다</h3>
-          <p>무엇이 새롭고 왜 IJRR scope에 맞는지 80단어 안에 설명되지 않으면 paper의 scientific unit이 아직 흐릴 수 있다.</p>
+          <h3 data-bilingual-id="c59">Novelty Statement 80단어가 실제 논문 quality test다</h3>
+          <p data-bilingual-id="c60">무엇이 새롭고 왜 IJRR scope에 맞는지 80단어 안에 설명되지 않으면 paper의 scientific unit이 아직 흐릴 수 있다.</p>
         </div>
         <div class="lesson">
-          <h3>길게 쓰는 능력보다 덜어내는 능력이 중요하다</h3>
-          <p>“as long as necessary, but no longer”라는 원칙은 연구자가 무엇이 본질이고 무엇이 부수적인지 구분할 수 있어야 한다는 뜻이다.</p>
+          <h3 data-bilingual-id="c61">길게 쓰는 능력보다 덜어내는 능력이 중요하다</h3>
+          <p data-bilingual-id="c62">“as long as necessary, but no longer”라는 원칙은 연구자가 무엇이 본질이고 무엇이 부수적인지 구분할 수 있어야 한다는 뜻이다.</p>
         </div>
       </div>
     </div>
@@ -618,11 +631,11 @@ a{color:inherit}
   </section>
 
   <div class="final">
-    <div class="big">
+    <div class="big" data-bilingual-id="c63">
       가장 간결하게 말하면, <strong>IJRR는 “최상위 robotics journal”이라는 서열보다
       “로보틱스의 중요한 연구 결과를 오래 보존할 scholarly record로 만드는 곳”이라는 관점으로 이해하는 것이 더 정확하다.</strong>
     </div>
-    <div class="small">
+    <div class="small" data-bilingual-id="c64">
       실제 대표 논문들을 보면 dataset, planning theorem, passive dynamics, learning survey, RHex, continuum robot,
       multi-robot taxonomy처럼 형태는 매우 다르지만 공통점이 있다.
       이후 연구자들이 문제를 정의하고 비교하고 구현할 때 다시 돌아오는 reference point가 되었다는 점이다.
@@ -639,12 +652,12 @@ a{color:inherit}
   <div class="page-title-row">
     <div>
       <div class="eyebrow">Representative IJRR Papers · Diversity-Oriented Selection</div>
-      <h2>대표 논문으로 보는 IJRR의 연구 스펙트럼</h2>
+      <h2 data-bilingual-id="c65">대표 논문으로 보는 IJRR의 연구 스펙트럼</h2>
     </div>
     <div class="num">04</div>
   </div>
 
-  <div class="atlas-intro">
+  <div class="atlas-intro" data-bilingual-id="c66">
     이 페이지는 citation 순위를 그대로 옮긴 목록이 아니다.
     <strong>RoboPaper Atlas 기준 100회 이상 인용된 IJRR 논문</strong>을 후보군으로 두고,
     그중 <strong>서로 다른 robotics subfield와 시대를 최대한 넓게 보여주는 연구</strong>를 골랐다.
@@ -656,7 +669,7 @@ a{color:inherit}
     <div>
       <div class="cta-kicker">Interactive source · explore the full IJRR corpus</div>
       <div class="cta-title">RoboPaper Atlas · IJRR Explorer</div>
-      <div class="cta-sub">IJRR 전체 논문을 연도 · citation · 저자 · 제목으로 직접 탐색하고 정렬할 수 있다.</div>
+      <div class="cta-sub" data-bilingual-id="c67">IJRR 전체 논문을 연도 · citation · 저자 · 제목으로 직접 탐색하고 정렬할 수 있다.</div>
     </div>
     <div class="cta-action">OPEN EXPLORER ↗<span>gisbi-kim.github.io/robopaper-atlas/explorer.html?v=ijrr</span></div>
   </a>
@@ -673,7 +686,7 @@ a{color:inherit}
     <div>
       <div class="paper-title">Vision meets robotics: The KITTI dataset</div>
       <div class="paper-meta">Andreas Geiger · Philip Lenz · Christoph Stiller · Raquel Urtasun</div>
-      <div class="paper-desc">
+      <div class="paper-desc" data-bilingual-id="c68">
         stereo cameras와 LiDAR를 실제 도심 driving platform에 결합해 stereo, optical flow, odometry,
         object detection 등 여러 perception problem을 공통 real-world benchmark로 묶었다.
         KITTI는 단순 dataset paper를 넘어 computer vision과 robotics가 같은 실제 자율주행 문제를 공유하도록 만든 reference infrastructure가 되었고,
@@ -691,7 +704,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Motion Planning Theory · 2011</div><div class="citecount">5,377 citations</div></div>
         <div class="title">Sampling-based Algorithms for Optimal Motion Planning</div>
         <div class="authors">Sertac Karaman · Emilio Frazzoli</div>
-        <div class="desc">PRM*·RRT* 계열의 asymptotic optimality를 체계적으로 정리해 sampling-based planning을 feasibility에서 optimality의 문제로 확장한 foundational work.</div>
+        <div class="desc" data-bilingual-id="c69">PRM*·RRT* 계열의 asymptotic optimality를 체계적으로 정리해 sampling-based planning을 feasibility에서 optimality의 문제로 확장한 foundational work.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/027836499000900206">
@@ -699,7 +712,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Passive Dynamics · Legged Robotics · 1990</div><div class="citecount">3,686 citations</div></div>
         <div class="title">Passive Dynamic Walking</div>
         <div class="authors">Tad McGeer</div>
-        <div class="desc">motorized trajectory tracking이 아니라 mechanism의 natural dynamics만으로 안정적인 walking이 가능함을 보여 legged robotics의 설계 철학을 바꾼 고전.</div>
+        <div class="desc" data-bilingual-id="c70">motorized trajectory tracking이 아니라 mechanism의 natural dynamics만으로 안정적인 walking이 가능함을 보여 legged robotics의 설계 철학을 바꾼 고전.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364913495721">
@@ -707,7 +720,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Robot Learning · Survey · 2013</div><div class="citecount">3,685 citations</div></div>
         <div class="title">Reinforcement Learning in Robotics: A Survey</div>
         <div class="authors">Jens Kober · J. Andrew Bagnell · Jan Peters</div>
-        <div class="desc">high-dimensional continuous control, real-world samples, model knowledge를 중심으로 RL을 robotics 관점에서 재정리해 이후 robot learning 연구의 대표 reference가 됐다.</div>
+        <div class="desc" data-bilingual-id="c71">high-dimensional continuous control, real-world samples, model knowledge를 중심으로 RL을 robotics 관점에서 재정리해 이후 robot learning 연구의 대표 reference가 됐다.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/02783649241273668">
@@ -715,7 +728,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Visuomotor Policy · Diffusion · 2025</div><div class="citecount">2,878 citations</div></div>
         <div class="title">Diffusion Policy: Visuomotor Policy Learning via Action Diffusion</div>
         <div class="authors">Cheng Chi · Zhenjia Xu · Siyuan Feng · Eric Cousineau · et al.</div>
-        <div class="desc">multimodal action distribution을 diffusion process로 표현해 contact-rich manipulation과 visuomotor imitation의 강력한 general-purpose policy class를 제시했다.</div>
+        <div class="desc" data-bilingual-id="c72">multimodal action distribution을 diffusion process로 표현해 contact-rich manipulation과 visuomotor imitation의 강력한 general-purpose policy class를 제시했다.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364910368147">
@@ -723,7 +736,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Continuum · Medical Robotics · 2010</div><div class="citecount">2,065 citations</div></div>
         <div class="title">Design and Kinematic Modeling of Constant Curvature Continuum Robots: A Review</div>
         <div class="authors">Robert J. Webster III · Bryan A. Jones</div>
-        <div class="desc">continuum robot의 constant-curvature kinematics를 공통 framework로 정리해 flexible/medical robotics의 설계와 모델링 언어를 표준화한 대표 review.</div>
+        <div class="desc" data-bilingual-id="c73">continuum robot의 constant-curvature kinematics를 공통 framework로 정리해 flexible/medical robotics의 설계와 모델링 언어를 표준화한 대표 review.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364904045564">
@@ -731,7 +744,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Multi-Robot Systems · 2004</div><div class="citecount">1,794 citations</div></div>
         <div class="title">A Formal Analysis and Taxonomy of Task Allocation in Multi-Robot Systems</div>
         <div class="authors">Brian P. Gerkey · Maja J. Mataric</div>
-        <div class="desc">multi-robot task allocation 문제를 resource/task multiplicity와 assignment 구조로 taxonomy화해 서로 다른 알고리즘을 비교하는 공통 언어를 만들었다.</div>
+        <div class="desc" data-bilingual-id="c74">multi-robot task allocation 문제를 resource/task multiplicity와 assignment 구조로 taxonomy화해 서로 다른 알고리즘을 비교하는 공통 언어를 만들었다.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/02783640122067570">
@@ -739,7 +752,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Bio-Inspired Mobility · 2001</div><div class="citecount">1,457 citations</div></div>
         <div class="title">RHex: A Simple and Highly Mobile Hexapod Robot</div>
         <div class="authors">Uluc Saranli · Martin Buehler · Daniel E. Koditschek</div>
-        <div class="desc">mechanical simplicity와 dynamic locomotion을 결합해 rough terrain에서 강인한 이동성을 보인 대표 robot system. embodiment와 control의 co-design을 상징한다.</div>
+        <div class="desc" data-bilingual-id="c75">mechanical simplicity와 dynamic locomotion을 결합해 rough terrain에서 강인한 이동성을 보인 대표 robot system. embodiment와 control의 co-design을 상징한다.</div>
       </a>
 
     </div>
@@ -751,7 +764,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Aerial Robotics · Aggressive Control · 2012</div><div class="citecount">1,049 citations</div></div>
         <div class="title">Trajectory Generation and Control for Precise Aggressive Maneuvers with Quadrotors</div>
         <div class="authors">Daniel Mellinger · Nathan Michael · Vijay Kumar</div>
-        <div class="desc">differential flatness를 이용한 trajectory generation과 feedback control로 quadrotor의 aggressive flight capability를 체계화한 aerial robotics landmark.</div>
+        <div class="desc" data-bilingual-id="c76">differential flatness를 이용한 trajectory generation과 feedback control로 quadrotor의 aggressive flight capability를 체계화한 aerial robotics landmark.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364907087172">
@@ -759,7 +772,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Vision-Based Grasping · 2008</div><div class="citecount">1,041 citations</div></div>
         <div class="title">Robotic Grasping of Novel Objects using Vision</div>
         <div class="authors">Ashutosh Saxena · Justin Driemeyer · Andrew Y. Ng</div>
-        <div class="desc">미지 object의 2-D image cue에서 grasping point를 학습해 category-specific model 없이 novel-object grasping을 다룬 초기 data-driven manipulation landmark.</div>
+        <div class="desc" data-bilingual-id="c77">미지 object의 2-D image cue에서 grasping point를 학습해 category-specific model 없이 novel-object grasping을 다룬 초기 data-driven manipulation landmark.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364909343970">
@@ -767,7 +780,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Robot Safety · Physical HRI · 2009</div><div class="citecount">452 citations</div></div>
         <div class="title">Requirements for Safe Robots: Measurements, Analysis and New Insights</div>
         <div class="authors">Sami Haddadin · Alin Albu-Schäffer · Gerd Hirzinger</div>
-        <div class="desc">human-robot collision을 measurement와 injury analysis로 연결해 physical interaction safety를 design requirement로 정량화한 대표 연구.</div>
+        <div class="desc" data-bilingual-id="c78">human-robot collision을 measurement와 injury analysis로 연결해 physical interaction safety를 design requirement로 정량화한 대표 연구.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364909341658">
@@ -775,7 +788,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Microrobotics · Low-Reynolds Physics · 2009</div><div class="citecount">671 citations</div></div>
         <div class="title">How Should Microrobots Swim?</div>
         <div class="authors">Jake J. Abbott · Kathrin E. Peyer · Marco C. Lagomarsino · et al.</div>
-        <div class="desc">low-Reynolds-number regime의 physics를 바탕으로 magnetic microrobot propulsion을 분석해 microrobot design을 fluid mechanics와 직접 연결했다.</div>
+        <div class="desc" data-bilingual-id="c79">low-Reynolds-number regime의 physics를 바탕으로 magnetic microrobot propulsion을 분석해 microrobot design을 fluid mechanics와 직접 연결했다.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364920917446">
@@ -783,7 +796,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Human Motion Prediction · HRI · 2020</div><div class="citecount">868 citations</div></div>
         <div class="title">Human Motion Trajectory Prediction: A Survey</div>
         <div class="authors">Andrey Rudenko · Luigi Palmieri · Michael Herman · Kris M. Kitani · et al.</div>
-        <div class="desc">사람의 future trajectory prediction을 model class, interaction, evaluation 관점에서 정리해 socially aware navigation과 HRI의 공통 reference를 제공했다.</div>
+        <div class="desc" data-bilingual-id="c80">사람의 future trajectory prediction을 model class, interaction, evaluation 관점에서 정리해 socially aware navigation과 HRI의 공통 reference를 제공했다.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364913514466">
@@ -791,7 +804,7 @@ a{color:inherit}
         <div class="topline"><div class="tag">Underactuated Hands · Robust Manipulation · 2014</div><div class="citecount">590 citations</div></div>
         <div class="title">A Compliant, Underactuated Hand for Robust Manipulation</div>
         <div class="authors">Lael Odhner · Leif Jentoft · Mark Claffee · et al.</div>
-        <div class="desc">mechanical compliance와 underactuation을 이용해 sensing/control 부담을 줄이면서 robust grasping을 구현한 design-centric manipulation research.</div>
+        <div class="desc" data-bilingual-id="c81">mechanical compliance와 underactuation을 이용해 sensing/control 부담을 줄이면서 robust grasping을 구현한 design-centric manipulation research.</div>
       </a>
 
       <a class="atlas-paper" href="https://doi.org/10.1177/0278364904045563">
@@ -799,14 +812,14 @@ a{color:inherit}
         <div class="topline"><div class="tag">Teleoperation · Time Delay · 2004</div><div class="citecount">571 citations</div></div>
         <div class="title">Telemanipulation with Time Delays</div>
         <div class="authors">Günter Niemeyer · Jean-Jacques E. Slotine</div>
-        <div class="desc">communication delay가 있는 bilateral teleoperation의 stability를 passivity 관점에서 다뤄 remote manipulation control의 대표 theoretical reference가 됐다.</div>
+        <div class="desc" data-bilingual-id="c82">communication delay가 있는 bilateral teleoperation의 stability를 passivity 관점에서 다뤄 remote manipulation control의 대표 theoretical reference가 됐다.</div>
       </a>
 
     </div>
   </div>
 
   <div class="atlas-foot">
-    <div>
+    <div data-bilingual-id="c83">
       <strong>Selection rule.</strong> RoboPaper Atlas · Semantic Scholar citation snapshot as of 2026-08-16.
       이 페이지는 <strong>citation ≥ 100</strong>을 최소 영향력 기준으로 사용한 뒤,
       citation 순위가 아니라 <strong>subfield diversity + historical breadth</strong>를 우선해 15편을 골랐다.
@@ -816,9 +829,9 @@ a{color:inherit}
   </div>
 
   <div class="sources">
-    <div class="label">Sources & data</div>
+    <div class="label">Sources &amp; data</div>
     <ol>
-      <li>IJRR / Sage official journal pages — history, aims & scope, peer-review policy, article types and submission guidelines.</li>
+      <li>IJRR / Sage official journal pages — history, aims &amp; scope, peer-review policy, article types and submission guidelines.</li>
       <li>Antonio Bicchi, “IJRR: A look back and a look forward” (2023) — founding history and editorial identity.</li>
       <li>IJRR Guidelines for Editors and Reviewers — archival-value standard and evidence expectations.</li>
       <li>RoboPaper Atlas — IJRR corpus and Semantic Scholar citation snapshot, 2026-08-16; selection on this page is editorial and diversity-oriented.</li>
@@ -829,5 +842,53 @@ a{color:inherit}
 <div class="pageno">04 / 04</div>
 </section>
 
-</body>
+<script>(() => {
+  const copy = {"c0":{"ko":"\n    <strong>The International Journal of Robotics Research</strong><br>\n    로보틱스를 독립된 학문으로 기록하기 시작한 최초의 전용 scholarly journal이자, 40년 넘게 “archival value”의 기준을 만들어온 대표 저널\n  ","en":"<strong>The International Journal of Robotics Research</strong><br>\n    It is the first dedicated scholarly journal to begin recording robotics as an independent discipline, and a representative journal that has set the standard for “archival value” for over 40 years."},"c1":{"ko":"\n      IJRR를 단순히 <strong>“T-RO와 비슷한 또 하나의 최상위 저널”</strong>로만 이해하면 역사적 성격을 놓치게 된다.\n      1982년 로보틱스가 아직 여러 공학 분야의 응용으로 보이던 시기에,\n      IJRR는 <strong>robotics 자체를 하나의 science &amp; technology로 기록하는 전용 scholarly venue</strong>로 출발했다.\n    ","en":"If you understand IJRR simply as <strong>“another top journal similar to T-RO”</strong>, you will miss its historical character.\n      In 1982, when robotics was still seen as an application to various engineering fields,\n      IJRR started out as a dedicated academic venuethat records robotics itself as a science &amp; technology."},"c2":{"ko":"\n      현재 IJRR의 공식 기준도 이 전통과 연결돼 있다.\n      scope는 “all of robotics”이며, 로보틱스를 Michael Brady의 표현을 빌려\n      <strong>perception과 action을 잇는 intelligent link</strong>로 본다.\n      논문은 original·solid해야 하고, 다른 연구자가 그 위에 다시 연구를 쌓을 수 있어야 하며, 시간이 지나도 가치가 남아야 한다.\n    ","en":"The current official standards of the IJRR are also connected to this tradition.\n      The scope is “all of robotics,” borrowing Michael Brady’s expression for robotics.\n      It is viewed as an <strong>intelligent link connecting perception and action</strong>.\n      The paper must be original and solid, allow other researchers to build upon it, and remain valuable over time."},"c3":{"ko":"<b>Founded 1982</b><span>Michael Brady · Richard Paul이 창간한 최초의 robotics research journal</span>","en":"<b>Founded 1982</b><span>The first robotics research journal founded by Michael Brady and Richard Paul</span>"},"c4":{"ko":"<b>All of Robotics</b><span>수학·AI·CS·EE·ME·인지·행동과학까지 폭넓은 scope</span>","en":"<b>All of Robotics</b><span>Broad scope including mathematics, AI, CS, EE, ME, cognitive and behavioral sciences</span>"},"c5":{"ko":"<b>~12 Pages</b><span>통상 final 2-column 기준 — “as long as necessary, but no longer”</span>","en":"<b>~12 Pages</b><span>Usually final 2-column standard — “as long as necessary, but no longer”</span>"},"c6":{"ko":"IJRR이 말하는 “좋은 robotics research”","en":"IJRR talks about “good robotics research”"},"c7":{"ko":"유행보다 오래 남는 research result를 본다","en":"See research results that last longer than trends"},"c8":{"ko":"\n          현 편집장이 설명한 IJRR의 정체성은 비교적 담백하다.\n          로보틱스 전체 스펙트럼에 대해 <strong>in-depth scientific discussion</strong>을 허용하되,\n          단기적인 fashion이나 glossy presentation에 치우치지 않는다는 것이다.\n          따라서 문제 정의·분석·system insight가 시간이 지나도 다시 읽힐 수 있어야 한다.\n        ","en":"The identity of IJRR explained by the current editor-in-chief is relatively simple.\n          Allow <strong>in-depth scientific discussion</strong> on the entire spectrum of robotics,\n          It does not focus on short-term fashion or glossy presentation.\n          Therefore, problem definition, analysis, and system insight must be able to be reread over time."},"c9":{"ko":"이론과 실제 중 하나를 택하는 저널이 아니다","en":"This is not a journal that chooses between theory and practice."},"c10":{"ko":"\n          공식 reviewer guideline은 proof, statistically significant experiment, reproducible test,\n          field demonstration 등 <strong>주장에 맞는 모든 relevant scientific means</strong>를 요구한다.\n          어떤 형식의 evidence인지보다 “회의적인 동료 연구자를 충분히 설득할 수 있는가”가 기준이다.\n        ","en":"The official reviewer guidelines are proof, statistically significant experiment, reproducible test,\n          All relevant scientific means that fit the claim are required, including field demonstrations.\n          Rather than the type of evidence, the criterion is “whether it can sufficiently persuade skeptical fellow researchers.”"},"c11":{"ko":"40년 넘게 로보틱스의 거의 모든 축을 함께 기록해 왔다","en":"We have been documenting almost all axes of robotics for over 40 years."},"c12":{"ko":"IJRR의 가장<br>중요한 문장","en":"The most important sentence of IJRR"},"c13":{"ko":"\n        공식 editorial guideline은 IJRR가 <b>archival value</b>가 있는 연구만을 출판한다고 설명한다.\n        즉, 분야를 advance하면서 <b>시간이 지나도 가치가 남고</b>,\n        <b>다른 연구자들이 그 위에 다시 build할 수 있는</b> 결과여야 한다.\n        이 기준은 단순 novelty보다 더 긴 시간축에서 논문의 가치를 평가한다.\n      ","en":"The official editorial guidelines explain that IJRR only publishes research that has <b>archival value</b>.\n        In other words, as you advance in the field, <b>value remains even as time passes</b>,\n        <b>It should be a result that other researchers can build on top of</b>.\n        This criterion evaluates the value of a paper over a longer time horizon than simple novelty."},"c14":{"ko":"IJRR의 역사와 독특한 “scholarly record” 문화","en":"IJRR’s history and unique “scholarly record” culture"},"c15":{"ko":"<strong>Volume 1, Issue 1</strong> 발행. articulated hand, model-based vision 등 당시 막 독립 분야로 형성되던 robotics 연구를 하나의 저널 안에 모았다.","en":"<strong>Volume 1, Issue 1</strong> published. It collected robotics research, which was just forming as an independent field at the time, into one journal, including articulated hand and model-based vision."},"c16":{"ko":"<strong>Sir Michael Brady와 Richard (Lou) Paul</strong>이 IJRR를 창간한다. 이후 ISRR(1983), IEEE ICRA의 전신 ICR(1984)이 뒤따르며 현대 robotics community의 제도적 기반이 형성된다.","en":"<strong>Sir Michael Brady and Richard (Lou) Paul</strong> establish IJRR. This was followed by ISRR (1983) and IEEE ICRA's predecessor, ICR (1984), forming the institutional foundation of the modern robotics community."},"c17":{"ko":"<strong>John Hollerbach</strong>가 23년 동안 Editor-in-Chief를 맡으며 IJRR의 규모와 영향력을 확장하고, “best scholarly articles”를 깊게 논의하는 대표 robotics journal의 정체성을 강화했다.","en":"<strong>John Hollerbach</strong> served as Editor-in-Chief for 23 years, expanding the size and influence of IJRR and strengthening its identity as a representative robotics journal that discusses “best scholarly articles” in depth."},"c18":{"ko":"<strong>Antonio Bicchi</strong>가 Editor-in-Chief를 이어받는다. inaugural editorial에서 IJRR를 “robotics research의 첫 scholarly publication”이자 40년 넘게 community history를 만든 flagship으로 규정한다.","en":"<strong>Antonio Bicchi</strong> takes over as Editor-in-Chief. The inaugural editorial defines IJRR as “the first scholarly publication in robotics research” and a flagship with over 40 years of community history."},"c19":{"ko":"Original Articles뿐 아니라 <strong>Review Articles · Special Issues · Data Papers</strong>를 출판한다. dataset도 단순 파일 공개가 아니라 사용법과 scientific value를 설명하는 regular manuscript 형태로 peer review한다.","en":"In addition to Original Articles, we publish <strong>Review Articles · Special Issues · Data Papers</strong>. The dataset is not simply released as a file, but is peer reviewed in the form of a regular manuscript that explains usage and scientific value."},"c20":{"ko":"\n        IJRR에는 형식적인 submission page limit가 없다.\n        그러나 공식 guideline은 일반적인 final two-column paper를 약 12쪽으로 보고,\n        substantially shorter/longer paper는 그만한 merit가 있을 때만 고려한다고 설명한다.\n      ","en":"IJRR has no formal submission page limit.\n        However, the official guideline considers a typical final two-column paper to be about 12 pages.\n        Explain that substantially shorter/longer papers are only considered if they have merit."},"c21":{"ko":"\n        즉, “journal이니 길게 쓰는 것”이 아니라\n        <strong>주장을 완결하는 데 필요한 만큼만 쓰고, 그 이상은 쓰지 않는 것</strong>이 원칙이다.\n        depth와 concision을 동시에 요구하는 셈이다.\n      ","en":"In other words, not “It’s a journal, so write long.”\n        The rule is <strong>write only as much as is necessary to complete the argument, and no more than that</strong>.\n        It requires depth and precision at the same time."},"c22":{"ko":"IJRR가 특히 강조하는 editorial transparency","en":"Editorial transparency particularly emphasized by IJRR"},"c23":{"ko":"preprint는 허용하지만 archival journal과의 동시 심사는 허용하지 않는다.","en":"Preprints are permitted, but simultaneous review with archival journals is not permitted."},"c24":{"ko":"conference/workshop과 일부 overlap이 있으면 제출 시 공개적으로 disclosure해야 한다.","en":"If there is some overlap with the conference/workshop, it must be publicly disclosed at the time of submission."},"c25":{"ko":"이전 conference paper의 단순 실험 추가는 substantial extension으로 보지 않는다.","en":"The simple addition of experiments to previous conference papers is not considered a substantial extension."},"c26":{"ko":"이전에 다른 venue에서 reject된 원고라면 그 사실과 reviews, 개선 내용을 함께 공개해야 한다.","en":"If the manuscript was previously rejected by another venue, that fact, reviews, and improvements must be disclosed."},"c27":{"ko":"submission에는 최대 80단어의 Novelty Statement가 필요하다.","en":"A novelty statement of up to 80 words is required for submission."},"c28":{"ko":"peer review는 professional editor가 아니라 robotics 연구자 community가 수행한다.","en":"Peer review is performed by a community of robotics researchers, not professional editors."},"c29":{"ko":"현재 IJRR peer-review / submission snapshot","en":"Current IJRR peer-review / submission snapshot"},"c30":{"ko":"왜 이런<br>정책인가","en":"Why is this policy?"},"c31":{"ko":"\n      IJRR는 journal paper를 <b>새로운 archival record</b>로 본다.\n      따라서 conference paper에서 상세 설명이나 실험 수만 늘리는 식의 확장은 충분하지 않으며,\n      새로운 result·methodology·analysis·conclusion·implication 중 하나 이상이\n      <b>실질적으로 연구의 의미를 확장</b>해야 한다고 명시한다.\n    ","en":"IJRR views journal papers as <b>new archival records</b>.\n      Therefore, expansion of the conference paper by simply increasing the number of detailed explanations or experiments is not sufficient.\n      One or more of the new result·methodology·analysis·conclusion·implication\n      It states that <b>the meaning of research must be expanded substantially</b>."},"c32":{"ko":"무엇이 “IJRR다운 논문”을 만드는가","en":"What makes an “IJRR-like paper”"},"c33":{"ko":"\n      IJRR다운 논문은 “길고 실험이 많은 논문”이라기보다,\n      <strong>한 연구 주제를 다른 연구자가 다시 출발점으로 사용할 수 있을 정도로 깊게 정리한 논문</strong>에 가깝다.\n      그래서 originality만큼 reproducibility·comparison·analysis·limitations가 중요하다.\n    ","en":"A paper like IJRR is not a “long paper with a lot of experiments,”\n      <strong>It is close to a thesis that organizes a research topic in depth to the point where other researchers can use it as a starting point</strong>.\n      Therefore, reproducibility, comparison, analysis, and limitations are as important as originality."},"c34":{"ko":"\n      같은 idea라도 conference에서는 “새로운가?”가 첫 질문이 되기 쉽지만,\n      IJRR에서는 그 다음 질문 — “이 결과가 충분히 solid하고, 오래 남고, 다른 사람이 build upon할 수 있는가?” — 까지 닫아야 한다.\n    ","en":"Even if it is the same idea, “Is it new?” is often the first question at a conference, but\n      At IJRR, the next question is — “Are these results solid enough, long-lasting, and easy for others to build upon?” — must be closed until."},"c35":{"ko":"관점","en":"perspective"},"c36":{"ko":"출발점","en":"starting point"},"c37":{"ko":"conference paper에 실험·dataset·background를 추가","en":"Add experiment/dataset/background to conference paper"},"c38":{"ko":"새로운 archival contribution이 무엇인지 먼저 정의","en":"First define what the new archival contribution is"},"c39":{"ko":"기존 method의 추가 성능 개선이나 상세화","en":"Additional performance improvement or refinement of existing methods"},"c40":{"ko":"새 result·methodology·analysis·implication 중 substantive advance가 존재","en":"Substantive advance exists among new result·methodology·analysis·implication"},"c41":{"ko":"더 많은 benchmark와 ablation","en":"More benchmarks and ablation"},"c42":{"ko":"claim에 필요한 proof·statistics·reproducible experiment·field evidence를 선택","en":"Select proof·statistics·reproducible experiment·field evidence required for claim"},"c43":{"ko":"journal이니 가능한 한 상세하게 작성","en":"Since this is a journal, write in as much detail as possible."},"c44":{"ko":"필요한 만큼만 — 통상 약 12쪽, 짧거나 길면 그 이유가 scientific merit로 설명돼야 함","en":"Only as much as necessary - usually about 12 pages; if it is short or long, the reason must be explained in terms of scientific merit."},"c45":{"ko":"related work를 넓게 추가","en":"Add related work broadly"},"c46":{"ko":"최신 literature와 meaningful comparison으로 “왜 실제 advance인가”를 입증","en":"Proving “why it is a real advance” through the latest literature and meaningful comparison"},"c47":{"ko":"같은 연구를 더 완성도 높게 보여줌","en":"Shows the same research with greater perfection"},"c48":{"ko":"후속 연구가 인용하고 재사용할 수 있는 reference point를 남김","en":"Leaves a reference point that subsequent research can cite and reuse"},"c49":{"ko":"\n        “conference 버전에 dataset 두 개와 ablation 세 개를 추가하고 설명을 확장했다.”\n      ","en":"“We added two datasets and three ablation to the conference version and expanded the explanation.”"},"c50":{"ko":"\n        IJRR guideline은 이런 변경만으로는 substantial extension이 아니라고 명시한다.\n        추가된 내용이 새로운 scientific conclusion이나 methodology를 만들어야 한다.\n      ","en":"The IJRR guideline states that this change alone is not a substantial extension.\n        The added content must create a new scientific conclusion or methodology."},"c51":{"ko":"\n        “기존 conference 결과가 성립하는 조건을 새롭게 분석하고, 그 한계를 제거하는 formulation을 도출해\n        이론·실험·새 application regime까지 하나의 확장된 scientific claim으로 정리한다.”\n      ","en":"“We newly analyzed the conditions under which the existing conference results are established and derived a formulation that eliminates the limitations.\n        Theory, experiment, and new application regime are organized into one expanded scientific claim.”"},"c52":{"ko":"\n        핵심은 분량 증가가 아니라 knowledge의 증가다.\n        기존 paper를 읽은 독자가 새 IJRR paper에서 무엇을 새롭게 배우는지가 분명해야 한다.\n      ","en":"The key is not the increase in volume, but the increase in knowledge.\n        It should be clear what new things readers of the existing paper learn from the new IJRR paper."},"c53":{"ko":"“Archival value”를 논문의 설계 기준으로 삼는다","en":"“Archival value” is used as the design standard for papers."},"c54":{"ko":"5년 뒤 누군가가 이 문제를 다시 풀 때도 유효한 formulation·analysis·dataset·system lesson이 무엇인지 생각한다.","en":"I think about what formulation, analysis, dataset, and system lessons will be effective even when someone solves this problem again five years from now."},"c55":{"ko":"Evidence의 종류보다 claim과의 적합성이 중요하다","en":"Compatibility with the claim is more important than the type of evidence."},"c56":{"ko":"proof가 필요한 주장에는 proof를, field claim에는 field evidence를, stochastic claim에는 statistics를 제공해야 한다.","en":"Proof must be provided for claims that require proof, field evidence must be provided for field claims, and statistics must be provided for stochastic claims."},"c57":{"ko":"이전 reject와 conference history를 숨기지 않는다","en":"Does not hide previous rejects and conference history"},"c58":{"ko":"IJRR는 이전 reviews와 개선 과정을 disclosure하도록 요구한다. transparency 자체가 scholarly process의 일부다.","en":"IJRR requires disclosure of previous reviews and improvement processes. Transparency itself is part of the scholarly process."},"c59":{"ko":"Novelty Statement 80단어가 실제 논문 quality test다","en":"Novelty Statement 80 words is the actual paper quality test"},"c60":{"ko":"무엇이 새롭고 왜 IJRR scope에 맞는지 80단어 안에 설명되지 않으면 paper의 scientific unit이 아직 흐릴 수 있다.","en":"If what is new and why it fits within the IJRR scope is not explained within 80 words, the scientific unit of the paper may still be unclear."},"c61":{"ko":"길게 쓰는 능력보다 덜어내는 능력이 중요하다","en":"The ability to summarize is more important than the ability to write at length."},"c62":{"ko":"“as long as necessary, but no longer”라는 원칙은 연구자가 무엇이 본질이고 무엇이 부수적인지 구분할 수 있어야 한다는 뜻이다.","en":"The principle “as long as necessary, but no longer” means that researchers must be able to distinguish what is essential and what is incidental."},"c63":{"ko":"\n      가장 간결하게 말하면, <strong>IJRR는 “최상위 robotics journal”이라는 서열보다\n      “로보틱스의 중요한 연구 결과를 오래 보존할 scholarly record로 만드는 곳”이라는 관점으로 이해하는 것이 더 정확하다.</strong>\n    ","en":"To put it most succinctly,<strong>IJRR ranks higher than the “top robotics journal”.\n      It is more accurate to understand it from the perspective of “a place where important research results in robotics are created as a scholarly record that will be preserved for a long time.”</strong>"},"c64":{"ko":"\n      실제 대표 논문들을 보면 dataset, planning theorem, passive dynamics, learning survey, RHex, continuum robot,\n      multi-robot taxonomy처럼 형태는 매우 다르지만 공통점이 있다.\n      이후 연구자들이 문제를 정의하고 비교하고 구현할 때 다시 돌아오는 reference point가 되었다는 점이다.\n    ","en":"If you look at the actual representative papers, dataset, planning theorem, passive dynamics, learning survey, RHex, continuum robot,\n      Like the multi-robot taxonomy, the forms are very different, but they have something in common.\n      Afterwards, it became a reference point for researchers to return to when defining, comparing, and implementing problems."},"c65":{"ko":"대표 논문으로 보는 IJRR의 연구 스펙트럼","en":"IJRR’s research spectrum viewed through representative papers"},"c66":{"ko":"\n    이 페이지는 citation 순위를 그대로 옮긴 목록이 아니다.\n    <strong>RoboPaper Atlas 기준 100회 이상 인용된 IJRR 논문</strong>을 후보군으로 두고,\n    그중 <strong>서로 다른 robotics subfield와 시대를 최대한 넓게 보여주는 연구</strong>를 골랐다.\n    따라서 아래 순서는 citation ranking이 아니며, dataset·planning·passive dynamics·robot learning·continuum/medical·multi-robot·legged mobility·aerial control·grasping·safety·microrobotics·human motion·underactuated hands·teleoperation까지 IJRR의 breadth를 보여주는 것이 목적이다.\n    <span class=\"selection-rule\">100+ citations · diversity first</span>\n  ","en":"This page is not a list of citation rankings.\n    <strong>IJRR papers that have been cited more than 100 times according to the RoboPaper Atlas</strong> are selected as candidates.\n    Among them, we selected <strong>research that covers different robotics subfields and eras as broadly as possible</strong>.\n    Therefore, the order below is not a citation ranking, but the purpose is to show the breadth of IJRR, including dataset·planning·passive dynamics·robot learning·continuum/medical·multi-robot·legged mobility·aerial control·grasping·safety·microrobotics·human motion·underactuated hands·teleoperation.\n    <span class=\"selection-rule\">100+ citations · diversity first</span>"},"c67":{"ko":"IJRR 전체 논문을 연도 · citation · 저자 · 제목으로 직접 탐색하고 정렬할 수 있다.","en":"You can directly search and sort all IJRR papers by year, citation, author, and title."},"c68":{"ko":"\n        stereo cameras와 LiDAR를 실제 도심 driving platform에 결합해 stereo, optical flow, odometry,\n        object detection 등 여러 perception problem을 공통 real-world benchmark로 묶었다.\n        KITTI는 단순 dataset paper를 넘어 computer vision과 robotics가 같은 실제 자율주행 문제를 공유하도록 만든 reference infrastructure가 되었고,\n        IJRR가 data paper까지 archival contribution으로 받아들이는 이유를 잘 보여준다.\n      ","en":"By combining stereo cameras and LiDAR with an actual urban driving platform, stereo, optical flow, odometry,\n        Several perception problems, such as object detection, were grouped into a common real-world benchmark.\n        KITTI went beyond a simple dataset paper and became a reference infrastructure that allowed computer vision and robotics to share the same actual autonomous driving problem.\n        This clearly shows why IJRR accepts even data papers as archival contributions."},"c69":{"ko":"PRM*·RRT* 계열의 asymptotic optimality를 체계적으로 정리해 sampling-based planning을 feasibility에서 optimality의 문제로 확장한 foundational work.","en":"Foundational work that systematically summarizes the asymptotic optimality of the PRM*·RRT* series and expands sampling-based planning from feasibility to the problem of optimality."},"c70":{"ko":"motorized trajectory tracking이 아니라 mechanism의 natural dynamics만으로 안정적인 walking이 가능함을 보여 legged robotics의 설계 철학을 바꾼 고전.","en":"A classic that changed the design philosophy of legged robotics by showing that stable walking is possible only with the natural dynamics of the mechanism rather than motorized trajectory tracking."},"c71":{"ko":"high-dimensional continuous control, real-world samples, model knowledge를 중심으로 RL을 robotics 관점에서 재정리해 이후 robot learning 연구의 대표 reference가 됐다.","en":"RL was reorganized from a robotics perspective with a focus on high-dimensional continuous control, real-world samples, and model knowledge, and has since become a representative reference for robot learning research."},"c72":{"ko":"multimodal action distribution을 diffusion process로 표현해 contact-rich manipulation과 visuomotor imitation의 강력한 general-purpose policy class를 제시했다.","en":"By expressing multimodal action distribution as a diffusion process, a powerful general-purpose policy class of contact-rich manipulation and visuomotor imitation was presented."},"c73":{"ko":"continuum robot의 constant-curvature kinematics를 공통 framework로 정리해 flexible/medical robotics의 설계와 모델링 언어를 표준화한 대표 review.","en":"A representative review that standardizes the design and modeling language of flexible/medical robotics by organizing the constant-curvature kinematics of continuum robots into a common framework."},"c74":{"ko":"multi-robot task allocation 문제를 resource/task multiplicity와 assignment 구조로 taxonomy화해 서로 다른 알고리즘을 비교하는 공통 언어를 만들었다.","en":"We taxonomy the multi-robot task allocation problem into resource/task multiplicity and assignment structures to create a common language to compare different algorithms."},"c75":{"ko":"mechanical simplicity와 dynamic locomotion을 결합해 rough terrain에서 강인한 이동성을 보인 대표 robot system. embodiment와 control의 co-design을 상징한다.","en":"A representative robot system that combines mechanical simplicity and dynamic locomotion to demonstrate strong mobility on rough terrain. It symbolizes the co-design of embodiment and control."},"c76":{"ko":"differential flatness를 이용한 trajectory generation과 feedback control로 quadrotor의 aggressive flight capability를 체계화한 aerial robotics landmark.","en":"An aerial robotics landmark that systemizes the aggressive flight capability of a quadrotor through trajectory generation and feedback control using differential flatness."},"c77":{"ko":"미지 object의 2-D image cue에서 grasping point를 학습해 category-specific model 없이 novel-object grasping을 다룬 초기 data-driven manipulation landmark.","en":"An early data-driven manipulation landmark that deals with novel-object grasping without a category-specific model by learning the grasping point from a 2-D image cue of an unknown object."},"c78":{"ko":"human-robot collision을 measurement와 injury analysis로 연결해 physical interaction safety를 design requirement로 정량화한 대표 연구.","en":"A representative study that linked human-robot collision with measurement and injury analysis to quantify physical interaction safety as a design requirement."},"c79":{"ko":"low-Reynolds-number regime의 physics를 바탕으로 magnetic microrobot propulsion을 분석해 microrobot design을 fluid mechanics와 직접 연결했다.","en":"Based on the physics of the low-Reynolds-number regime, we analyzed magnetic microrobot propulsion and directly connected microrobot design to fluid mechanics."},"c80":{"ko":"사람의 future trajectory prediction을 model class, interaction, evaluation 관점에서 정리해 socially aware navigation과 HRI의 공통 reference를 제공했다.","en":"By organizing human future trajectory prediction from the perspective of model class, interaction, and evaluation, we provided a common reference for socially aware navigation and HRI."},"c81":{"ko":"mechanical compliance와 underactuation을 이용해 sensing/control 부담을 줄이면서 robust grasping을 구현한 design-centric manipulation research.","en":"Design-centric manipulation research that realizes robust grasping while reducing the sensing/control burden using mechanical compliance and underactuation."},"c82":{"ko":"communication delay가 있는 bilateral teleoperation의 stability를 passivity 관점에서 다뤄 remote manipulation control의 대표 theoretical reference가 됐다.","en":"It has become a representative theoretical reference for remote manipulation control by dealing with the stability of bilateral teleoperation with communication delay from the perspective of passivity."},"c83":{"ko":"\n      <strong>Selection rule.</strong> RoboPaper Atlas · Semantic Scholar citation snapshot as of 2026-08-16.\n      이 페이지는 <strong>citation ≥ 100</strong>을 최소 영향력 기준으로 사용한 뒤,\n      citation 순위가 아니라 <strong>subfield diversity + historical breadth</strong>를 우선해 15편을 골랐다.\n      Citation count는 선택의 자격 조건이지 최종 정렬 기준이 아니다.\n    ","en":"<strong>Selection rule.</strong> RoboPaper Atlas · Semantic Scholar citation snapshot as of 2026-08-16.\n      This page uses <strong>citations ≥ 100</strong> as the minimum influence standard.\n      We selected 15 papers based on <strong>subfield diversity + historical breadth</strong> rather than citation ranking.\n      Citation count is a qualification for selection, not a final sorting criterion."}};
+  const attrs = {};
+  const button = document.querySelector('.language-toggle');
+  const storageKey = 'robotics-venue-guide-language';
+
+  function updateGuideLinks(language) {
+    document.querySelectorAll('a.button.primary').forEach((link) => {
+      try {
+        const url = new URL(link.getAttribute('href'), window.location.href);
+        if (language === 'en') url.searchParams.set('lang', 'en');
+        else url.searchParams.delete('lang');
+        link.setAttribute('href', url.href);
+      } catch (_) {}
+    });
+  }
+
+  function setLanguage(language, updateAddress = true) {
+    const lang = language === 'en' ? 'en' : 'ko';
+    Object.entries(copy).forEach(([id, values]) => {
+      const node = document.querySelector(`[data-bilingual-id="${id}"]`);
+      if (node) node.innerHTML = values[lang];
+    });
+    Object.entries(attrs).forEach(([id, values]) => {
+      const node = document.querySelector(`[data-bilingual-attr-id="${id}"]`);
+      if (node) node.setAttribute(values.name, values[lang]);
+    });
+    document.documentElement.lang = lang;
+    button.textContent = lang === 'ko' ? 'EN' : '한국어';
+    button.setAttribute('aria-label', lang === 'ko' ? 'Switch to English' : '한국어로 전환');
+    button.setAttribute('title', lang === 'ko' ? 'Switch to English' : '한국어로 전환');
+    updateGuideLinks(lang);
+    try { localStorage.setItem(storageKey, lang); } catch (_) {}
+    if (updateAddress) {
+      const url = new URL(window.location.href);
+      if (lang === 'en') url.searchParams.set('lang', 'en');
+      else url.searchParams.delete('lang');
+      history.replaceState(null, '', url);
+    }
+  }
+
+  const requested = new URLSearchParams(window.location.search).get('lang');
+  let initial = requested === 'en' ? 'en' : requested === 'ko' ? 'ko' : 'ko';
+  if (!requested) {
+    try { initial = localStorage.getItem(storageKey) === 'en' ? 'en' : 'ko'; } catch (_) {}
+  }
+  button.addEventListener('click', () => setLanguage(document.documentElement.lang === 'ko' ? 'en' : 'ko'));
+  setLanguage(initial, false);
+})();</script></body>
 </html>

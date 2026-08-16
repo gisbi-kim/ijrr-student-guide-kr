@@ -1,6 +1,6 @@
 # IJRR — The International Journal of Robotics Research
 
-학생들에게 The International Journal of Robotics Research(IJRR)의 역사, archival-value 기준과 논문 작성 관점을 설명하기 위한 한국어 4쪽 웹 팸플릿입니다.
+학생들에게 The International Journal of Robotics Research(IJRR)의 역사, archival-value 기준과 논문 작성 관점을 설명하기 위한 한·영 전환형 4쪽 웹 팸플릿입니다.
 
 ## 공개 사이트
 
@@ -15,7 +15,7 @@
 
 ## 사용 방법
 
-별도의 빌드 과정이 없는 단일 정적 HTML 사이트입니다. `index.html`을 브라우저에서 열면 바로 볼 수 있으며, 인쇄 시 A4 세로 4쪽으로 출력되도록 구성했습니다.
+별도의 빌드 과정이 없는 단일 정적 HTML 사이트입니다. `index.html`을 브라우저에서 열면 바로 볼 수 있고, 우측 상단 버튼으로 한국어와 영어를 전환할 수 있으며, 인쇄 시 A4 세로 4쪽으로 출력되도록 구성했습니다.
 
 ## 출처와 시점
 
